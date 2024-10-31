@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sittin' Pretty Skin</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Quicksand', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffe6f2;
+            color: #5c0b33;
+        }
+        header {
+            background-color: #ffb6c1;
+            color: #5c0b33;
+            text-align: center;
+            padding: 1.5em 0;
+            font-family: 'Playfair Display', serif;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: 700;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #5c0b33;
+            font-size: 1em;
+            margin: 0 10px;
+            font-weight: 500;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 10px;
+        }
+        .services, .about {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .services h2, .about h2 {
+            font-size: 2em;
+            color: #5c0b33;
+            font-family: 'Playfair Display', serif;
+        }
+        .services p, .about p {
+            font-size: 1.1em;
+            color: #a34a65;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            max-width: 300px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .email-signup {
+            text-align: center;
+            margin: 40px 0;
+        }
+        .email-signup input[type="email"] {
+            padding: 10px;
+            font-size: 1em;
+            border: 1px solid #ffb6c1;
+            border-radius: 5px;
+            width: 250px;
+        }
+        .email-signup button {
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: #ffb6c1;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 500;
+        }
+        .email-signup button:hover {
+            background-color: #e89ca5;
+        }
+        footer {
+            background-color: #ffb6c1;
+            color: #5c0b33;
+            text-align: center;
+            padding: 1em 0;
+            font-family: 'Playfair Display', serif;
+        }
+        .social-links {
+            margin: 20px 0;
+        }
+        .social-links a {
+            text-decoration: none;
+            color: #5c0b33;
+            margin: 0 10px;
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Sittin' Pretty Skin</h1>
+    <p>Your go-to spot for lash, brow, and beauty services in Joplin, MO</p>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+    </nav>
+</header>
+
+<div class="container">
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Haley! With years of experience in beauty and esthetics, I’m here to help you look and feel your best with expert lash, brow, and skincare services.</p>
+    </section>
+
+    <section class="services" id="services">
+        <h2>Our Services</h2>
+        <p>Offering lash extensions, lash lifts, brow shaping, and more to enhance your natural beauty.</p>
+    </section>
+
+    <section class="gallery" id="gallery">
+        <img src="path/to/image1.jpeg" alt="Beauty Service 1">
+        <img src="path/to/image2.jpeg" alt="Beauty Service 2">
+    </section>
+
+    <section class="email-signup">
+        <h2>Stay Updated!</h2>
+        <p>Join our email list for the latest updates and exclusive offers:</p>
+        <form action="#" method="post">
+            <input type="email" name="email" placeholder="Enter your email" required>
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Sittin' Pretty Skin - All rights reserved.</p>
+    <div class="social-links">
+        <a href="https://www.instagram.com/sittinprettyskin/profilecard/?igsh=MXY1a2ppZDk5ODhmeg==" target="_blank">Instagram</a>
+        <a href="https://www.facebook.com/share/3Po4BMaxJJSfgzZo/?mibextid=LQQJ4d" target="_blank">Facebook</a>
+    </div>
+</footer>
+
+</body>
+</html>
